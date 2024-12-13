@@ -13,15 +13,15 @@ Aplikasi berbasis website **POLIKLINIK** menggunakan PHP dengan koneksi Admin, D
 
 ## Sample Login Credentials
 ### Admin
-- **Username:** Rony  
-- **Password:** rony  
+- **Username:** agus  
+- **Password:** agus  
 
 ### Dokter
 - **NIP:** 16782235  
-- **Password:** dr. Rony Irfan  
+- **Password:** soun  
 
 ### Periksa Pasien
-- Example ID: `2024-06-27-11`
+- Example ID: `2024-12-10`
 
 ## Language and Tools
 - **Language:** PHP  
@@ -30,4 +30,4 @@ Aplikasi berbasis website **POLIKLINIK** menggunakan PHP dengan koneksi Admin, D
 ---
 
 ## Additional Info
-This project, named "PoliklinikBK," showcases a comprehensive web-based application designed to manage clinic operations effectively.
+This project, named "Poliklinik_MitraSehat," showcases a comprehensive web-based application designed to manage clinic operations effectively.
