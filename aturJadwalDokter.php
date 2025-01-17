@@ -5,6 +5,14 @@
         $jam_mulai = $_POST['jam_mulai'];
         $jam_selesai = $_POST['jam_selesai'];
         $statues = $_POST['statues'];
+
+        $queryHari = "SELECT * FROM jadwal_periksa WHERE id_dokter = '$id_dokter' AND hari = '$hari'";
+        $resultHari = mysqli_query($mysqli,$queryHari);
+
+        if (mysqli_num_rows($resultHari) > 0) {
+            echo '<script>alert("jadwal dokter sudah ada"); document.location="berandaDokter.php?page=aturJadwalDokter";</script>';
+            exit();
+        }
     
         // If the new status is 'Active', set all other statuses to 'Inactive'
         if ($statues == 1) {
